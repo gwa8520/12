@@ -1,8 +1,9 @@
 #define BOARDSTATUS_OK	1
 #define BOARDSTATUS_NOTOK 0
+#define N_BOARD	20
 
 
-int borad_initBoard(void);
+int board_initBoard(void);
 int board_printBoardStatus(void);
 
 int board_getBoardCoin(int pos); 
